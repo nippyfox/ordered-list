@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Упорядочить авторов курсовой</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <table>
         <tr>
             <td>
-                <input type="text" name="enter" placeholder="Вставьте список авторов сюда">
+                <textarea name="enter" id="enter" placeholder="Вставьте список авторов сюда"></textarea>
             </td>
             <td>
-                <input type="text" name="result" disabled>
+                <textarea name="result" id="result" disabled></textarea>
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <button>Упорядочить</button>
+                <button onclick="order()">Упорядочить</button>
             </td>
         </tr>
     </table>
+    <script type="text/javascript" src="func.js"></script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+body {
+    background-image: url('background.jpg');
+    background-size: 750px 450px;
+}
+
+textarea {
+    height: 340px;
+    width: 328px;
+    resize: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    margin-top: 3px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0); 
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 10px;
+    background: rgb(16, 47, 185);
+    box-shadow: 0 -3px rgb(53, 116, 167) inset;
+    transition: 0.2s;
+    width: 300px;
+}
+
+button:hover {
+    background: rgb(9, 15, 109);
+}
+
+button:active {
+    background: rgb(7, 0, 65);
+    box-shadow: 0 3px rgb(33, 101, 147) inset;
+}

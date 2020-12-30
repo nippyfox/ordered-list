@@ -1,3 +1,4 @@
 /node_modules
+/ordered-list-win32-x64
 package.json
 package-lock.json
